@@ -28,6 +28,13 @@ The following has been verified:
 - Restrict CORS origins for production.
 - Improve API error handling and validation where necessary.
 
+## Next priorities
+
+1. Refactor backend routes into smaller modules and extract service-layer logic.
+2. Harden API behavior with stricter validation and consistent error contracts.
+3. Define environment-specific security defaults (especially CORS).
+4. Evaluate persistence requirements before replacing deterministic mock data.
+
 ## Current constraint
 
 This task focuses on documenting the existing project context.
